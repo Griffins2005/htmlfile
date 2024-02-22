@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+        background-color: lightslategray;
+    }
+    h2{
+        text-decoration: underline;
+    }
+    /* Basic styling for navigation menu */
+    nav {
+      background-color: chocolate;
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Content container */
+    .content {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body id="body" class="body">
+  <!-- Navigation menu -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content sections -->
+  <div id="home" class="content">
+    <h2>Home</h2>
+    <p>Welcome to my portfolio website! Here is a digital showcase of my skills and  my projects.</p>
+  </div>
+
+  <div id="about" class="content">
+    <h2>About</h2>
+    <p>I am a passionate fullstack web developer. 
+        I enjoy creating innovative solutions to real-world problems using my skills.</p>
+  </div>
+
+  <div id="projects" class="content">
+    <h2>Projects</h2>
+    <p>Here are some of the projects I have worked on:</p>
+    <ul>
+      <li>A Meme generator </li>
+      <li>A Stopwatch</li>
+      <li>A FixMySchedule App</li>
+    </ul>
+  </div>
+</body>
+</html>
